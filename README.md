@@ -24,7 +24,5 @@ wget https://raw.githubusercontent.com/felipe199903/Ubuntu-Post-Install/master/p
 - Automatic security updates
 - SSH disable root login
 - SFTP server config
-- Optional install of Wireguard VPN server - credit to https://github.com/l-n-s/wireguard-install
-- Optional install for docker
 - A message of the day system stats
 - System Clean up after the install
