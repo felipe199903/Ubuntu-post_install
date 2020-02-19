@@ -35,6 +35,9 @@ sudo apt-get install -y htop
 # install unzip
 sudo apt install unzip
 
+# install snap
+sudo apt install snapd
+
 #install teamview
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sudo apt install -y ./teamviewer_amd64.deb
