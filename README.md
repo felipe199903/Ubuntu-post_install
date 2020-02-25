@@ -1,4 +1,4 @@
-# Ubuntu-post_install
+# Post-installation of Ubuntu
 
 Scripts to Automate Ubuntu Post Install
 
@@ -23,7 +23,4 @@ wget https://raw.githubusercontent.com/felipe199903/Ubuntu-Post-Install/master/p
 - yarn
 - Angular-cli
 - Automatic security updates
-- SSH disable root login
-- SFTP server config
-- A message of the day system stats
 - System Clean up after the install
