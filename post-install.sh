@@ -32,15 +32,8 @@ sudo ufw allow OpenSSH
 # install htop
 sudo apt-get install -y htop
 
-# install unzip
-sudo apt install unzip
-
 # install snap
 sudo apt install snapd
-
-#install teamview
-wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-sudo apt install -y ./teamviewer_amd64.deb
 
 # install vscode
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
@@ -72,19 +65,6 @@ curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get -y update && sudo apt-get -y install yarn
 
-#install Angular-cli
-sudo npm install -y -g @angular/cli
-
-# Automatic downloads of security updates
-sudo apt-get install -y unattended-upgrades
-echo "Unattended-Upgrade::Allowed-Origins {
-#   "${distro_id}:${distro_codename}-security";
-#//  "${distro_id}:${distro_codename}-updates";
-#//  "${distro_id}:${distro_codename}-proposed";
-#//  "${distro_id}:${distro_codename}-backports";
-#Unattended-Upgrade::Automatic-Reboot "true"; 
-#}; " >> /etc/apt/apt.conf.d/50unattended-upgrades
-
 sudo service ssh restart  
 
 # Cleanup
@@ -99,8 +79,6 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - OpenSSH install
 - Ufw config
 - Htop
-- Unzip
-- Teamview
 - Snap
 - Vscode
 - Git
@@ -109,8 +87,6 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - Nodejs 13
 - Developer Tools Essentials
 - yarn
-- Angular-cli
-- Automatic security updates
 - System Clean up after the install
 ######################################################################################################
 "

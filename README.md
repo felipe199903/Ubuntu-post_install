@@ -11,8 +11,6 @@ wget https://raw.githubusercontent.com/felipe199903/Ubuntu-Post-Install/master/p
 - OpenSSH install
 - Ufw config
 - Htop
-- Unzip
-- Teamview
 - Snap
 - Vscode
 - Git
@@ -21,6 +19,4 @@ wget https://raw.githubusercontent.com/felipe199903/Ubuntu-Post-Install/master/p
 - Nodejs 13
 - Developer Tools Essentials
 - yarn
-- Angular-cli
-- Automatic security updates
 - System Clean up after the install
