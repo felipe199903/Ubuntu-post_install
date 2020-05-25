@@ -19,4 +19,5 @@ wget https://raw.githubusercontent.com/felipe199903/Ubuntu-Post-Install/master/p
 - Nodejs 13
 - Developer Tools Essentials
 - yarn
+- notepad++
 - System Clean up after the install
