@@ -65,6 +65,9 @@ curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get -y update && sudo apt-get -y install yarn
 
+#install notepad++
+sudo snap install notepad-plus-plus
+
 sudo service ssh restart  
 
 # Cleanup
@@ -87,6 +90,7 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - Nodejs 13
 - Developer Tools Essentials
 - yarn
+- notepad++
 - System Clean up after the install
 ######################################################################################################
 "
