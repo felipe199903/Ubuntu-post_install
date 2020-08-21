@@ -5,7 +5,7 @@ Scripts to Automate Ubuntu Post Install
 # Whats on each script?
 Ubuntu post install script
 ```
-wget https://github.com/felipe199903/Ubuntu-post_install.git && bash post-install.sh
+wget https://github.com/felipe199903/Ubuntu-post_install.git
 ```
 ```
 cd Ubuntu-post_install
