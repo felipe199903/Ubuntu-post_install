@@ -66,7 +66,10 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get -y update && sudo apt-get -y install yarn
 
 #install notepad++
-sudo snap install notepad-plus-plus
+sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+sudo apt install -y sublime-text
 
 sudo service ssh restart  
 
@@ -87,10 +90,10 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - Git
 - jdk
 - python-software-properties
-- Nodejs 13
+- nodejs 12 (LTS)
 - Developer Tools Essentials
 - yarn
-- notepad++
+- sublime-text
 - System Clean up after the install
 ######################################################################################################
 "
