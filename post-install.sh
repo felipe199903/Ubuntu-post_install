@@ -51,8 +51,8 @@ java -version
 # install python-software-properties to use Nodejs
 sudo apt-get install -y python-software-properties
 
-#install Nodejs 13
-curl -sL https://deb.nodesource.com/setup_13.x | sudo bash -
+#install Nodejs 12 (LTS)
+curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 sudo apt-get install -y nodejs
 node -v
 
