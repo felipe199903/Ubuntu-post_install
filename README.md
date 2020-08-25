@@ -1,9 +1,8 @@
 # Post-installation of Ubuntu
 
-Scripts to Automate Ubuntu Post Install
+Scripts to automate Ubuntu Post Install
 
-# Whats on each script?
-Ubuntu post install script
+# How to use
 ```
 wget https://github.com/felipe199903/Ubuntu-post_install/blob/master/post-install.sh
 ```
@@ -13,6 +12,7 @@ cd Ubuntu-post_install
 ```
 sudo bash post-install.sh
 ```
+# Whats on each
 - Sys updates 
 - OpenSSH install
 - Ufw config
