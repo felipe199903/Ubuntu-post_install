@@ -65,11 +65,14 @@ curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get -y update && sudo apt-get -y install yarn
 
-#install notepad++
+#install sublime-text
 sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
 curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
 sudo apt install -y sublime-text
+
+#install postamn
+sudo snap install postman
 
 sudo service ssh restart  
 
@@ -94,6 +97,7 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - Developer Tools Essentials
 - yarn
 - sublime-text
+- postman
 - System Clean up after the install
 ######################################################################################################
 "
