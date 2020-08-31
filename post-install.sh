@@ -11,7 +11,7 @@ then
 fi
 
 # Ensure system is up to date
-sudo apt-get update -y 
+sudo apt-get update -y
 
 # Upgrade the system
 sudo apt-get upgrade -y
@@ -24,7 +24,7 @@ sudo apt-get dist-upgrade -y
 sudo apt-get install openssh-server -y
 
 # Enable Firewall
-sudo ufw enable 
+sudo ufw enable
 
 # configure the firewall
 sudo ufw allow OpenSSH
@@ -74,17 +74,17 @@ sudo apt install -y sublime-text
 #install postamn
 sudo snap install postman
 
-sudo service ssh restart  
+sudo service ssh restart
 
 # Cleanup
 sudo apt autoremove
-sudo apt clean 
+sudo apt clean
 
 echo "
 ######################################################################################################
 Post-installation of Ubuntu successfully executed! what was installed:
 
-- Sys updates 
+- System updates and upgrade
 - OpenSSH install
 - Ufw config
 - Htop
@@ -101,4 +101,3 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - System Clean up after the install
 ######################################################################################################
 "
-exit 0

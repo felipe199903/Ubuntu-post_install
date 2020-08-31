@@ -13,7 +13,7 @@ cd Ubuntu-post_install
 sudo bash post-install.sh
 ```
 # Whats on each
-- Sys updates 
+- Sys updates
 - OpenSSH install
 - Ufw config
 - Htop
