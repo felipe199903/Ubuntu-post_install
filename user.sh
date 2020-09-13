@@ -7,3 +7,6 @@ echo "user: " $username "created with success"
 
 # add user to sudo group
 sudo usermod -aG sudo $username
+
+# list users
+cut -d: -f1 /etc/passwd
