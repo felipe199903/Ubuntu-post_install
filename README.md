@@ -27,3 +27,7 @@ sudo bash post-install.sh
 - yarn
 - notepad++
 - System Clean up after the install
+
+# Create user
+
+bash user.sh
