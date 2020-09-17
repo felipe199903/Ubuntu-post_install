@@ -30,4 +30,6 @@ sudo bash post-install.sh
 
 # Create user
 
+```
 bash user.sh
+```
