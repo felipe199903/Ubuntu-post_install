@@ -5,7 +5,7 @@ sudo adduser $username
 
 echo "user: " $username "created with success"
 
-echo "add user to SUDO group? (y - yes or n - no)"
+echo "add" $username "to SUDO group? (y - yes or n - no)"
 read addRoot
 
 if [ $addRoot == 'y' ]
