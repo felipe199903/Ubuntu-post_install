@@ -20,6 +20,9 @@ sudo apt install software-properties-common
 # Upgrade the system
 sudo apt-get dist-upgrade -y
 
+# Install gnome-tweak-tool
+sudo apt install gnome-tweaks
+
 # Install OpenSSH
 sudo apt-get install openssh-server -y
 
@@ -85,6 +88,7 @@ echo "
 Post-installation of Ubuntu successfully executed! what was installed:
 
 - System updates and upgrade
+- Gnome-tweak-tool
 - OpenSSH install
 - Ufw config
 - Htop

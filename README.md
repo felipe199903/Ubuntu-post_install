@@ -14,6 +14,7 @@ sudo bash post-install.sh
 ```
 # Whats on each
 - Sys updates
+- Gnome-tweak-tool
 - OpenSSH install
 - Ufw config
 - Htop
