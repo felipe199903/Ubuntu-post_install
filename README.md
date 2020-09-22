@@ -34,3 +34,9 @@ sudo bash post-install.sh
 ```
 bash user.sh
 ```
+
+# Create dev env
+
+```
+bash dev.env.sh
+```
