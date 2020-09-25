@@ -1,6 +1,6 @@
 # Post-installation of Ubuntu
 
-Scripts to automate Ubuntu Post Install
+Scripts to automate Ubuntu Post Install and tasks.
 
 # How to use
 ```
