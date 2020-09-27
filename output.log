@@ -1,0 +1,678 @@
+felipe@felipe-VirtualBox:~/Documents/Ubuntu-post_install$ sudo sh post-install.sh 
+post-install.sh: 7: [[: not found
+Hit:1 http://br.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://br.archive.ubuntu.com/ubuntu focal-updates InRelease [111 kB]                                          
+Hit:3 http://dl.google.com/linux/chrome/deb stable InRelease                                                                       
+Get:4 http://br.archive.ubuntu.com/ubuntu focal-backports InRelease [98,3 kB]                                                      
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease                                                                
+Hit:6 https://packages.microsoft.com/ubuntu/16.04/prod xenial InRelease        
+Fetched 210 kB in 11s (19,8 kB/s)
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+The following packages will be upgraded:
+  packages-microsoft-prod
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2.452 B of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 https://packages.microsoft.com/ubuntu/16.04/prod xenial/main amd64 packages-microsoft-prod all 1.0-3 [2.452 B]
+Fetched 2.452 B in 11s (231 B/s)                    
+(Reading database ... 182655 files and directories currently installed.)
+Preparing to unpack .../packages-microsoft-prod_1.0-3_all.deb ...
+Unpacking packages-microsoft-prod (1.0-3) over (1.0-2) ...
+Setting up packages-microsoft-prod (1.0-3) ...
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+software-properties-common is already the newest version (0.98.9.2).
+software-properties-common set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  chrome-gnome-shell gir1.2-handy-0.0 gnome-shell-extension-prefs
+Suggested packages:
+  chromium | chromium-browser
+The following NEW packages will be installed:
+  chrome-gnome-shell gir1.2-handy-0.0 gnome-shell-extension-prefs gnome-tweaks
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 88,6 kB of archives.
+After this operation, 621 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+Get:1 http://br.archive.ubuntu.com/ubuntu focal/universe amd64 chrome-gnome-shell all 10.1-5 [13,9 kB]
+Get:2 http://br.archive.ubuntu.com/ubuntu focal/main amd64 gir1.2-handy-0.0 amd64 0.0.13-1 [9.980 B]
+Get:3 http://br.archive.ubuntu.com/ubuntu focal-updates/universe amd64 gnome-shell-extension-prefs amd64 3.36.4-1ubuntu1~20.04.2 [6.368 B]
+Get:4 http://br.archive.ubuntu.com/ubuntu focal/universe amd64 gnome-tweaks all 3.34.0-2ubuntu1 [58,4 kB]
+Fetched 88,6 kB in 10s (8.805 B/s)     
+Selecting previously unselected package chrome-gnome-shell.
+(Reading database ... 182655 files and directories currently installed.)
+Preparing to unpack .../chrome-gnome-shell_10.1-5_all.deb ...
+Unpacking chrome-gnome-shell (10.1-5) ...
+Selecting previously unselected package gir1.2-handy-0.0:amd64.
+Preparing to unpack .../gir1.2-handy-0.0_0.0.13-1_amd64.deb ...
+Unpacking gir1.2-handy-0.0:amd64 (0.0.13-1) ...
+Selecting previously unselected package gnome-shell-extension-prefs.
+Preparing to unpack .../gnome-shell-extension-prefs_3.36.4-1ubuntu1~20.04.2_amd64.deb ...
+Unpacking gnome-shell-extension-prefs (3.36.4-1ubuntu1~20.04.2) ...
+Selecting previously unselected package gnome-tweaks.
+Preparing to unpack .../gnome-tweaks_3.34.0-2ubuntu1_all.deb ...
+Unpacking gnome-tweaks (3.34.0-2ubuntu1) ...
+Setting up gir1.2-handy-0.0:amd64 (0.0.13-1) ...
+Setting up chrome-gnome-shell (10.1-5) ...
+Setting up gnome-shell-extension-prefs (3.36.4-1ubuntu1~20.04.2) ...
+Setting up gnome-tweaks (3.34.0-2ubuntu1) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  ncurses-term openssh-sftp-server ssh-import-id
+Suggested packages:
+  molly-guard monkeysphere ssh-askpass
+The following NEW packages will be installed:
+  ncurses-term openssh-server openssh-sftp-server ssh-import-id
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 688 kB of archives.
+After this operation, 6.010 kB of additional disk space will be used.
+Get:1 http://br.archive.ubuntu.com/ubuntu focal/main amd64 ncurses-term all 6.2-0ubuntu2 [249 kB]
+Get:2 http://br.archive.ubuntu.com/ubuntu focal-updates/main amd64 openssh-sftp-server amd64 1:8.2p1-4ubuntu0.1 [51,5 kB]
+Get:3 http://br.archive.ubuntu.com/ubuntu focal-updates/main amd64 openssh-server amd64 1:8.2p1-4ubuntu0.1 [377 kB]
+Get:4 http://br.archive.ubuntu.com/ubuntu focal/main amd64 ssh-import-id all 5.10-0ubuntu1 [10,0 kB]
+Fetched 688 kB in 10s (67,4 kB/s)         
+Preconfiguring packages ...
+Selecting previously unselected package ncurses-term.
+(Reading database ... 182730 files and directories currently installed.)
+Preparing to unpack .../ncurses-term_6.2-0ubuntu2_all.deb ...
+Unpacking ncurses-term (6.2-0ubuntu2) ...
+Selecting previously unselected package openssh-sftp-server.
+Preparing to unpack .../openssh-sftp-server_1%3a8.2p1-4ubuntu0.1_amd64.deb ...
+Unpacking openssh-sftp-server (1:8.2p1-4ubuntu0.1) ...
+Selecting previously unselected package openssh-server.
+Preparing to unpack .../openssh-server_1%3a8.2p1-4ubuntu0.1_amd64.deb ...
+Unpacking openssh-server (1:8.2p1-4ubuntu0.1) ...
+Selecting previously unselected package ssh-import-id.
+Preparing to unpack .../ssh-import-id_5.10-0ubuntu1_all.deb ...
+Unpacking ssh-import-id (5.10-0ubuntu1) ...
+Setting up openssh-sftp-server (1:8.2p1-4ubuntu0.1) ...
+Setting up openssh-server (1:8.2p1-4ubuntu0.1) ...
+
+Creating config file /etc/ssh/sshd_config with new version
+Creating SSH2 RSA key; this may take some time ...
+3072 SHA256:0wqSUiCJoFUKZYUTqkXE6IT1x1C519Ci8xpzgnBsW1E root@felipe-VirtualBox (RSA)
+Creating SSH2 ECDSA key; this may take some time ...
+256 SHA256:SrPkGnZF8GUAtDuh9V8Vljc2RdVhTO8D6IWzg/+Qi3c root@felipe-VirtualBox (ECDSA)
+Creating SSH2 ED25519 key; this may take some time ...
+256 SHA256:7l+3paN2yy2+Gh6H3iVCoJj3tZw/QbHugEmtE4UxVdw root@felipe-VirtualBox (ED25519)
+Created symlink /etc/systemd/system/sshd.service → /lib/systemd/system/ssh.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ssh.service → /lib/systemd/system/ssh.service.
+rescue-ssh.target is a disabled or a static unit, not starting it.
+Setting up ssh-import-id (5.10-0ubuntu1) ...
+Attempting to convert /etc/ssh/ssh_import_id
+Setting up ncurses-term (6.2-0ubuntu2) ...
+Processing triggers for systemd (245.4-4ubuntu3.2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for ufw (0.36-6) ...
+Firewall is active and enabled on system startup
+Rule added
+Rule added (v6)
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+htop is already the newest version (2.2.0-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+snapd is already the newest version (2.46.1+20.04).
+snapd set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+OK
+Hit:1 http://br.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://br.archive.ubuntu.com/ubuntu focal-updates InRelease [111 kB]                                                         
+Hit:3 http://dl.google.com/linux/chrome/deb stable InRelease                                                                       
+Get:4 http://br.archive.ubuntu.com/ubuntu focal-backports InRelease [98,3 kB]                                                      
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease                                                                   
+Get:6 https://packages.microsoft.com/repos/vscode stable InRelease [3.959 B]   
+Hit:7 https://packages.microsoft.com/ubuntu/16.04/prod xenial InRelease
+Get:8 https://packages.microsoft.com/repos/vscode stable/main amd64 Packages [201 kB]
+Fetched 414 kB in 11s (36,8 kB/s) 
+Reading package lists... Done
+Hit:1 http://br.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://br.archive.ubuntu.com/ubuntu focal-updates InRelease [111 kB]                         
+Hit:3 http://dl.google.com/linux/chrome/deb stable InRelease                                                                       
+Get:4 http://br.archive.ubuntu.com/ubuntu focal-backports InRelease [98,3 kB]                                                      
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease                                               
+Hit:6 https://packages.microsoft.com/repos/vscode stable InRelease             
+Hit:7 https://packages.microsoft.com/ubuntu/16.04/prod xenial InRelease
+Fetched 210 kB in 11s (19,2 kB/s)
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+All packages are up to date.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  code
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 63,9 MB of archives.
+After this operation, 276 MB of additional disk space will be used.
+Get:1 https://packages.microsoft.com/repos/vscode stable/main amd64 code amd64 1.49.2-1600965325 [63,9 MB]
+Fetched 63,9 MB in 16s (4.013 kB/s)                                                                                                
+Selecting previously unselected package code.
+(Reading database ... 185577 files and directories currently installed.)
+Preparing to unpack .../code_1.49.2-1600965325_amd64.deb ...
+Unpacking code (1.49.2-1600965325) ...
+Setting up code (1.49.2-1600965325) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  default-jdk-headless default-jre default-jre-headless openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre
+  openjdk-11-jre-headless
+Suggested packages:
+  openjdk-11-demo openjdk-11-source visualvm fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei | fonts-wqy-zenhei
+The following NEW packages will be installed:
+  default-jdk default-jdk-headless default-jre default-jre-headless openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre
+  openjdk-11-jre-headless
+0 upgraded, 8 newly installed, 0 to remove and 0 not upgraded.
+Need to get 259 MB of archives.
+After this operation, 403 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+Get:1 http://br.archive.ubuntu.com/ubuntu focal-updates/main amd64 openjdk-11-jre-headless amd64 11.0.8+10-0ubuntu1~20.04 [37,4 MB]
+Get:2 http://br.archive.ubuntu.com/ubuntu focal/main amd64 default-jre-headless amd64 2:1.11-72 [3.192 B]
+Get:3 http://br.archive.ubuntu.com/ubuntu focal-updates/main amd64 openjdk-11-jre amd64 11.0.8+10-0ubuntu1~20.04 [34,7 kB]
+Get:4 http://br.archive.ubuntu.com/ubuntu focal/main amd64 default-jre amd64 2:1.11-72 [1.084 B]
+Get:5 http://br.archive.ubuntu.com/ubuntu focal-updates/main amd64 openjdk-11-jdk-headless amd64 11.0.8+10-0ubuntu1~20.04 [217 MB]
+Get:6 http://br.archive.ubuntu.com/ubuntu focal/main amd64 default-jdk-headless amd64 2:1.11-72 [1.140 B]                          
+Get:7 http://br.archive.ubuntu.com/ubuntu focal-updates/main amd64 openjdk-11-jdk amd64 11.0.8+10-0ubuntu1~20.04 [4.837 kB]        
+Get:8 http://br.archive.ubuntu.com/ubuntu focal/main amd64 default-jdk amd64 2:1.11-72 [1.096 B]                                   
+Fetched 259 MB in 20s (13,0 MB/s)                                                                                                  
+Selecting previously unselected package openjdk-11-jre-headless:amd64.
+(Reading database ... 187452 files and directories currently installed.)
+Preparing to unpack .../0-openjdk-11-jre-headless_11.0.8+10-0ubuntu1~20.04_amd64.deb ...
+Unpacking openjdk-11-jre-headless:amd64 (11.0.8+10-0ubuntu1~20.04) ...
+Selecting previously unselected package default-jre-headless.
+Preparing to unpack .../1-default-jre-headless_2%3a1.11-72_amd64.deb ...
+Unpacking default-jre-headless (2:1.11-72) ...
+Selecting previously unselected package openjdk-11-jre:amd64.
+Preparing to unpack .../2-openjdk-11-jre_11.0.8+10-0ubuntu1~20.04_amd64.deb ...
+Unpacking openjdk-11-jre:amd64 (11.0.8+10-0ubuntu1~20.04) ...
+Selecting previously unselected package default-jre.
+Preparing to unpack .../3-default-jre_2%3a1.11-72_amd64.deb ...
+Unpacking default-jre (2:1.11-72) ...
+Selecting previously unselected package openjdk-11-jdk-headless:amd64.
+Preparing to unpack .../4-openjdk-11-jdk-headless_11.0.8+10-0ubuntu1~20.04_amd64.deb ...
+Unpacking openjdk-11-jdk-headless:amd64 (11.0.8+10-0ubuntu1~20.04) ...
+Selecting previously unselected package default-jdk-headless.
+Preparing to unpack .../5-default-jdk-headless_2%3a1.11-72_amd64.deb ...
+Unpacking default-jdk-headless (2:1.11-72) ...
+Selecting previously unselected package openjdk-11-jdk:amd64.
+Preparing to unpack .../6-openjdk-11-jdk_11.0.8+10-0ubuntu1~20.04_amd64.deb ...
+Unpacking openjdk-11-jdk:amd64 (11.0.8+10-0ubuntu1~20.04) ...
+Selecting previously unselected package default-jdk.
+Preparing to unpack .../7-default-jdk_2%3a1.11-72_amd64.deb ...
+Unpacking default-jdk (2:1.11-72) ...
+Setting up openjdk-11-jre-headless:amd64 (11.0.8+10-0ubuntu1~20.04) ...
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jjs to provide /usr/bin/jjs (jjs) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto 
+mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jfr to provide /usr/bin/jfr (jfr) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+Setting up openjdk-11-jre:amd64 (11.0.8+10-0ubuntu1~20.04) ...
+Setting up openjdk-11-jdk-headless:amd64 (11.0.8+10-0ubuntu1~20.04) ...
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeprscan to provide /usr/bin/jdeprscan (jdeprscan) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jimage to provide /usr/bin/jimage (jimage) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jlink to provide /usr/bin/jlink (jlink) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jmod to provide /usr/bin/jmod (jmod) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mod
+e
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jshell to provide /usr/bin/jshell (jshell) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmic to provide /usr/bin/rmic (rmic) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jaotc to provide /usr/bin/jaotc (jaotc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jhsdb to provide /usr/bin/jhsdb (jhsdb) in auto mode
+Setting up openjdk-11-jdk:amd64 (11.0.8+10-0ubuntu1~20.04) ...
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+Setting up default-jre-headless (2:1.11-72) ...
+Setting up default-jre (2:1.11-72) ...
+Setting up default-jdk-headless (2:1.11-72) ...
+Setting up default-jdk (2:1.11-72) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+openjdk version "11.0.8" 2020-07-14
+OpenJDK Runtime Environment (build 11.0.8+10-post-Ubuntu-0ubuntu120.04)
+OpenJDK 64-Bit Server VM (build 11.0.8+10-post-Ubuntu-0ubuntu120.04, mixed mode, sharing)
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Package python-software-properties is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  software-properties-common
+
+E: Package 'python-software-properties' has no installation candidate
+post-install.sh: 58: curl: not found
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libc-ares2 libnode64 nodejs-doc
+Suggested packages:
+  npm
+The following NEW packages will be installed:
+  libc-ares2 libnode64 nodejs nodejs-doc
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 6.807 kB of archives.
+After this operation, 30,7 MB of additional disk space will be used.
+Get:1 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libc-ares2 amd64 1.15.0-1build1 [37,8 kB]
+Get:2 http://br.archive.ubuntu.com/ubuntu focal/universe amd64 libnode64 amd64 10.19.0~dfsg-3ubuntu1 [5.765 kB]
+Get:3 http://br.archive.ubuntu.com/ubuntu focal/universe amd64 nodejs-doc all 10.19.0~dfsg-3ubuntu1 [942 kB]
+Get:4 http://br.archive.ubuntu.com/ubuntu focal/universe amd64 nodejs amd64 10.19.0~dfsg-3ubuntu1 [61,1 kB]
+Fetched 6.807 kB in 10s (665 kB/s) 
+Selecting previously unselected package libc-ares2:amd64.
+(Reading database ... 187964 files and directories currently installed.)
+Preparing to unpack .../libc-ares2_1.15.0-1build1_amd64.deb ...
+Unpacking libc-ares2:amd64 (1.15.0-1build1) ...
+Selecting previously unselected package libnode64:amd64.
+Preparing to unpack .../libnode64_10.19.0~dfsg-3ubuntu1_amd64.deb ...
+Unpacking libnode64:amd64 (10.19.0~dfsg-3ubuntu1) ...
+Selecting previously unselected package nodejs-doc.
+Preparing to unpack .../nodejs-doc_10.19.0~dfsg-3ubuntu1_all.deb ...
+Unpacking nodejs-doc (10.19.0~dfsg-3ubuntu1) ...
+Selecting previously unselected package nodejs.
+Preparing to unpack .../nodejs_10.19.0~dfsg-3ubuntu1_amd64.deb ...
+Unpacking nodejs (10.19.0~dfsg-3ubuntu1) ...
+Setting up libc-ares2:amd64 (1.15.0-1build1) ...
+Setting up libnode64:amd64 (10.19.0~dfsg-3ubuntu1) ...
+Setting up nodejs-doc (10.19.0~dfsg-3ubuntu1) ...
+Setting up nodejs (10.19.0~dfsg-3ubuntu1) ...
+update-alternatives: using /usr/bin/nodejs to provide /usr/bin/js (js) in auto mode
+Processing triggers for libc-bin (2.31-0ubuntu9.1) ...
+Processing triggers for man-db (2.9.1-1) ...
+v10.19.0
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu g++-9 gcc-9 libasan5 libatomic1 libbinutils libc-dev-bin libc6-dev
+  libcrypt-dev libctf-nobfd0 libctf0 libgcc-9-dev libitm1 liblsan0 libquadmath0 libstdc++-9-dev libtsan0 libubsan1 linux-libc-dev
+  manpages-dev
+Suggested packages:
+  binutils-doc g++-multilib g++-9-multilib gcc-9-doc gcc-multilib autoconf automake libtool flex bison gcc-doc gcc-9-multilib
+  gcc-9-locales glibc-doc libstdc++-9-doc make-doc
+The following NEW packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu g++ g++-9 gcc gcc-9 libasan5 libatomic1 libbinutils libc-dev-bin libc6-dev
+  libcrypt-dev libctf-nobfd0 libctf0 libgcc-9-dev libitm1 liblsan0 libquadmath0 libstdc++-9-dev libtsan0 libubsan1 linux-libc-dev
+  make manpages-dev
+0 upgraded, 25 newly installed, 0 to remove and 0 not upgraded.
+Need to get 30,5 MB of archives.
+After this operation, 140 MB of additional disk space will be used.
+Get:1 http://br.archive.ubuntu.com/ubuntu focal/main amd64 binutils-common amd64 2.34-6ubuntu1 [207 kB]
+Get:2 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libbinutils amd64 2.34-6ubuntu1 [474 kB]
+Get:3 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1 [47,0 kB]
+Get:4 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libctf0 amd64 2.34-6ubuntu1 [46,6 kB]
+Get:5 http://br.archive.ubuntu.com/ubuntu focal/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1 [1.614 kB]
+Get:6 http://br.archive.ubuntu.com/ubuntu focal/main amd64 binutils amd64 2.34-6ubuntu1 [3.376 B]
+Get:7 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libitm1 amd64 10-20200411-0ubuntu1 [26,3 kB]
+Get:8 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libatomic1 amd64 10-20200411-0ubuntu1 [9.284 B]
+Get:9 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libasan5 amd64 9.3.0-10ubuntu2 [395 kB]
+Get:10 http://br.archive.ubuntu.com/ubuntu focal/main amd64 liblsan0 amd64 10-20200411-0ubuntu1 [144 kB]
+Get:11 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libtsan0 amd64 10-20200411-0ubuntu1 [319 kB]
+Get:12 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libubsan1 amd64 10-20200411-0ubuntu1 [136 kB]
+Get:13 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libquadmath0 amd64 10-20200411-0ubuntu1 [146 kB]
+Get:14 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libgcc-9-dev amd64 9.3.0-10ubuntu2 [2.359 kB]
+Get:15 http://br.archive.ubuntu.com/ubuntu focal/main amd64 gcc-9 amd64 9.3.0-10ubuntu2 [8.234 kB]
+Get:16 http://br.archive.ubuntu.com/ubuntu focal/main amd64 gcc amd64 4:9.3.0-1ubuntu2 [5.208 B]
+Get:17 http://br.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-dev-bin amd64 2.31-0ubuntu9.1 [71,7 kB]
+Get:18 http://br.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-48.52 [1.138 kB]
+Get:19 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4 [104 kB]
+Get:20 http://br.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dev amd64 2.31-0ubuntu9.1 [2.519 kB]
+Get:21 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libstdc++-9-dev amd64 9.3.0-10ubuntu2 [1.711 kB]
+Get:22 http://br.archive.ubuntu.com/ubuntu focal/main amd64 g++-9 amd64 9.3.0-10ubuntu2 [8.404 kB]
+Get:23 http://br.archive.ubuntu.com/ubuntu focal/main amd64 g++ amd64 4:9.3.0-1ubuntu2 [1.604 B]
+Get:24 http://br.archive.ubuntu.com/ubuntu focal/main amd64 make amd64 4.2.1-1.2 [162 kB]
+Get:25 http://br.archive.ubuntu.com/ubuntu focal/main amd64 manpages-dev all 5.05-1 [2.266 kB]
+Fetched 30,5 MB in 11s (2.834 kB/s)      
+Selecting previously unselected package binutils-common:amd64.
+(Reading database ... 188096 files and directories currently installed.)
+Preparing to unpack .../00-binutils-common_2.34-6ubuntu1_amd64.deb ...
+Unpacking binutils-common:amd64 (2.34-6ubuntu1) ...
+Selecting previously unselected package libbinutils:amd64.
+Preparing to unpack .../01-libbinutils_2.34-6ubuntu1_amd64.deb ...
+Unpacking libbinutils:amd64 (2.34-6ubuntu1) ...
+Selecting previously unselected package libctf-nobfd0:amd64.
+Preparing to unpack .../02-libctf-nobfd0_2.34-6ubuntu1_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.34-6ubuntu1) ...
+Selecting previously unselected package libctf0:amd64.
+Preparing to unpack .../03-libctf0_2.34-6ubuntu1_amd64.deb ...
+Unpacking libctf0:amd64 (2.34-6ubuntu1) ...
+Selecting previously unselected package binutils-x86-64-linux-gnu.
+Preparing to unpack .../04-binutils-x86-64-linux-gnu_2.34-6ubuntu1_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.34-6ubuntu1) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../05-binutils_2.34-6ubuntu1_amd64.deb ...
+Unpacking binutils (2.34-6ubuntu1) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../06-libitm1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libitm1:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../07-libatomic1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libatomic1:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libasan5:amd64.
+Preparing to unpack .../08-libasan5_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking libasan5:amd64 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../09-liblsan0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking liblsan0:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../10-libtsan0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libtsan0:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libubsan1:amd64.
+Preparing to unpack .../11-libubsan1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libubsan1:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../12-libquadmath0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libquadmath0:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libgcc-9-dev:amd64.
+Preparing to unpack .../13-libgcc-9-dev_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking libgcc-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package gcc-9.
+Preparing to unpack .../14-gcc-9_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking gcc-9 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../15-gcc_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking gcc (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../16-libc-dev-bin_2.31-0ubuntu9.1_amd64.deb ...
+Unpacking libc-dev-bin (2.31-0ubuntu9.1) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../17-linux-libc-dev_5.4.0-48.52_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.4.0-48.52) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../18-libcrypt-dev_1%3a4.4.10-10ubuntu4_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../19-libc6-dev_2.31-0ubuntu9.1_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.31-0ubuntu9.1) ...
+Selecting previously unselected package libstdc++-9-dev:amd64.
+Preparing to unpack .../20-libstdc++-9-dev_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking libstdc++-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package g++-9.
+Preparing to unpack .../21-g++-9_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking g++-9 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../22-g++_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking g++ (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package make.
+Preparing to unpack .../23-make_4.2.1-1.2_amd64.deb ...
+Unpacking make (4.2.1-1.2) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../24-manpages-dev_5.05-1_all.deb ...
+Unpacking manpages-dev (5.05-1) ...
+Setting up manpages-dev (5.05-1) ...
+Setting up binutils-common:amd64 (2.34-6ubuntu1) ...
+Setting up linux-libc-dev:amd64 (5.4.0-48.52) ...
+Setting up libctf-nobfd0:amd64 (2.34-6ubuntu1) ...
+Setting up libasan5:amd64 (9.3.0-10ubuntu2) ...
+Setting up make (4.2.1-1.2) ...
+Setting up libquadmath0:amd64 (10-20200411-0ubuntu1) ...
+Setting up libatomic1:amd64 (10-20200411-0ubuntu1) ...
+Setting up libubsan1:amd64 (10-20200411-0ubuntu1) ...
+Setting up libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Setting up libbinutils:amd64 (2.34-6ubuntu1) ...
+Setting up libc-dev-bin (2.31-0ubuntu9.1) ...
+Setting up liblsan0:amd64 (10-20200411-0ubuntu1) ...
+Setting up libitm1:amd64 (10-20200411-0ubuntu1) ...
+Setting up libtsan0:amd64 (10-20200411-0ubuntu1) ...
+Setting up libctf0:amd64 (2.34-6ubuntu1) ...
+Setting up libgcc-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Setting up libc6-dev:amd64 (2.31-0ubuntu9.1) ...
+Setting up binutils-x86-64-linux-gnu (2.34-6ubuntu1) ...
+Setting up libstdc++-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Setting up binutils (2.34-6ubuntu1) ...
+Setting up gcc-9 (9.3.0-10ubuntu2) ...
+Setting up gcc (4:9.3.0-1ubuntu2) ...
+Setting up g++-9 (9.3.0-10ubuntu2) ...
+Setting up g++ (4:9.3.0-1ubuntu2) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.1) ...
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  dpkg-dev fakeroot libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl libfakeroot
+Suggested packages:
+  debian-keyring
+The following NEW packages will be installed:
+  build-essential dpkg-dev fakeroot libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl libfakeroot
+0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+Need to get 842 kB of archives.
+After this operation, 2.736 kB of additional disk space will be used.
+Get:1 http://br.archive.ubuntu.com/ubuntu focal/main amd64 dpkg-dev all 1.19.7ubuntu3 [679 kB]
+Get:2 http://br.archive.ubuntu.com/ubuntu focal/main amd64 build-essential amd64 12.8ubuntu1 [4.624 B]
+Get:3 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libfakeroot amd64 1.24-1 [25,7 kB]
+Get:4 http://br.archive.ubuntu.com/ubuntu focal/main amd64 fakeroot amd64 1.24-1 [62,6 kB]
+Get:5 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libalgorithm-diff-perl all 1.19.03-2 [46,6 kB]
+Get:6 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libalgorithm-diff-xs-perl amd64 0.04-6 [11,3 kB]
+Get:7 http://br.archive.ubuntu.com/ubuntu focal/main amd64 libalgorithm-merge-perl all 0.08-3 [12,0 kB]
+Fetched 842 kB in 10s (82,8 kB/s)                  
+Selecting previously unselected package dpkg-dev.
+(Reading database ... 193182 files and directories currently installed.)
+Preparing to unpack .../0-dpkg-dev_1.19.7ubuntu3_all.deb ...
+Unpacking dpkg-dev (1.19.7ubuntu3) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../1-build-essential_12.8ubuntu1_amd64.deb ...
+Unpacking build-essential (12.8ubuntu1) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../2-libfakeroot_1.24-1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.24-1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../3-fakeroot_1.24-1_amd64.deb ...
+Unpacking fakeroot (1.24-1) ...
+Selecting previously unselected package libalgorithm-diff-perl.
+Preparing to unpack .../4-libalgorithm-diff-perl_1.19.03-2_all.deb ...
+Unpacking libalgorithm-diff-perl (1.19.03-2) ...
+Selecting previously unselected package libalgorithm-diff-xs-perl.
+Preparing to unpack .../5-libalgorithm-diff-xs-perl_0.04-6_amd64.deb ...
+Unpacking libalgorithm-diff-xs-perl (0.04-6) ...
+Selecting previously unselected package libalgorithm-merge-perl.
+Preparing to unpack .../6-libalgorithm-merge-perl_0.08-3_all.deb ...
+Unpacking libalgorithm-merge-perl (0.08-3) ...
+Setting up libalgorithm-diff-perl (1.19.03-2) ...
+Setting up libfakeroot:amd64 (1.24-1) ...
+Setting up dpkg-dev (1.19.7ubuntu3) ...
+Setting up fakeroot (1.24-1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up build-essential (12.8ubuntu1) ...
+Setting up libalgorithm-diff-xs-perl (0.04-6) ...
+Setting up libalgorithm-merge-perl (0.08-3) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.1) ...
+post-install.sh: 67: curl: not found
+gpg: no valid OpenPGP data found.
+deb https://dl.yarnpkg.com/debian/ stable main
+Hit:1 http://br.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://br.archive.ubuntu.com/ubuntu focal-updates InRelease [111 kB]                                                        
+Get:3 http://br.archive.ubuntu.com/ubuntu focal-backports InRelease [98,3 kB]                                                      
+Hit:4 http://dl.google.com/linux/chrome/deb stable InRelease                                                                       
+Hit:5 https://packages.microsoft.com/repos/vscode stable InRelease                                                                 
+Hit:6 https://packages.microsoft.com/ubuntu/16.04/prod xenial InRelease                                                     
+Get:7 https://dl.yarnpkg.com/debian stable InRelease [17,1 kB]                             
+Err:7 https://dl.yarnpkg.com/debian stable InRelease                                                                               
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23E7166788B63E1E
+Hit:8 http://security.ubuntu.com/ubuntu focal-security InRelease                                                                   
+Reading package lists... Done                                                                                                      
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target CNF (main/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: GPG error: https://dl.yarnpkg.com/debian stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23E7166788B63E1E
+E: The repository 'https://dl.yarnpkg.com/debian stable InRelease' is not signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target CNF (main/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+dirmngr is already the newest version (2.2.19-3ubuntu2).
+dirmngr set to manually installed.
+gnupg is already the newest version (2.2.19-3ubuntu2).
+gnupg set to manually installed.
+ca-certificates is already the newest version (20190110ubuntu1.1).
+ca-certificates set to manually installed.
+software-properties-common is already the newest version (0.98.9.2).
+The following NEW packages will be installed:
+  apt-transport-https
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1.708 B of archives.
+After this operation, 160 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+Get:1 http://br.archive.ubuntu.com/ubuntu focal-updates/universe amd64 apt-transport-https all 2.0.2ubuntu0.1 [1.708 B]
+Fetched 1.708 B in 10s (170 B/s)                
+Selecting previously unselected package apt-transport-https.
+(Reading database ... 193498 files and directories currently installed.)
+Preparing to unpack .../apt-transport-https_2.0.2ubuntu0.1_all.deb ...
+Unpacking apt-transport-https (2.0.2ubuntu0.1) ...
+Setting up apt-transport-https (2.0.2ubuntu0.1) ...
+post-install.sh: 73: curl: not found
+gpg: no valid OpenPGP data found.
+Hit:1 http://br.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://br.archive.ubuntu.com/ubuntu focal-updates InRelease [111 kB]                                                         
+Hit:3 http://dl.google.com/linux/chrome/deb stable InRelease                                                                       
+Get:4 http://br.archive.ubuntu.com/ubuntu focal-backports InRelease [98,3 kB]                                                      
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease                                                                   
+Hit:6 https://packages.microsoft.com/repos/vscode stable InRelease                                                                 
+Hit:7 https://packages.microsoft.com/ubuntu/16.04/prod xenial InRelease                                        
+Get:8 https://download.sublimetext.com apt/stable/ InRelease [2.562 B]       
+Err:8 https://download.sublimetext.com apt/stable/ InRelease        
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F57D4F59BD3DF454
+Get:9 https://dl.yarnpkg.com/debian stable InRelease [17,1 kB]
+Err:9 https://dl.yarnpkg.com/debian stable InRelease                                                                               
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23E7166788B63E1E
+Reading package lists... Done                                                                                                      
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target CNF (main/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: GPG error: https://download.sublimetext.com apt/stable/ InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F57D4F59BD3DF454
+E: The repository 'https://download.sublimetext.com apt/stable/ InRelease' is not signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: GPG error: https://dl.yarnpkg.com/debian stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 23E7166788B63E1E
+E: The repository 'https://dl.yarnpkg.com/debian stable InRelease' is not signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11 (main/dep11/Components-all.yml) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons-small (main/dep11/icons-48x48.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target DEP-11-icons-hidpi (main/dep11/icons-64x64@2.tar) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target CNF (main/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list:58 and /etc/apt/sources.list.d/vscode.list:3
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+
+No apt package "sublime-text", but there is a snap with that name.
+Try "snap install sublime-text"
+
+E: Unable to locate package sublime-text
+postman 7.33.1 from Postman, Inc. (postman-inc✓) installed
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+######################################################################################################
+Post-installation of Ubuntu successfully executed! what was installed:
+
+- System updates and upgrade
+- Gnome-tweak-tool
+- OpenSSH install
+- Ufw config
+- Htop
+- Snap
+- Vscode
+- Git
+- jdk
+- python-software-properties
+- nodejs 12 (LTS)
+- Developer Tools Essentials
+- yarn
+- sublime-text
+- postman
+- System Clean up after the install
+######################################################################################################
+
+felipe@felipe-VirtualBox:~/Documents/Ubuntu-post_install$ 
