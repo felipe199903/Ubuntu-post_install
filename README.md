@@ -1,7 +1,7 @@
 # Post-installation of Ubuntu
 
 Scripts to automate Ubuntu Post Install and tasks.
-<img scr = ".github/ppyd.jpg">
+<img src=".github/ppyd.jpg">
 
 # How to use
 ```
