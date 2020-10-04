@@ -24,10 +24,7 @@ sudo bash post-install.sh
 - Git
 - jdk
 - python-software-properties
-- Nodejs 13
 - Developer Tools Essentials
-- yarn
-- notepad++
 - System Clean up after the install
 
 # Create user

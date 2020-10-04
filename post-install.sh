@@ -54,25 +54,9 @@ java -version
 # install python-software-properties to use Nodejs
 sudo apt-get install -y python-software-properties
 
-#install Nodejs 12 (LTS)
-curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
-sudo apt-get install -y nodejs
-node -v
-
 #install Develop Tools Essentials
 sudo apt-get install -y gcc g++ make
 sudo apt install -y build-essential
-
-#install yarn
-curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt-get -y update && sudo apt-get -y install yarn
-
-#install sublime-text
-sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
-curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
-sudo apt install -y sublime-text
 
 #install postamn
 sudo snap install postman
@@ -97,10 +81,7 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - Git
 - jdk
 - python-software-properties
-- nodejs 12 (LTS)
 - Developer Tools Essentials
-- yarn
-- sublime-text
 - postman
 - System Clean up after the install
 ######################################################################################################
