@@ -14,18 +14,24 @@ cd Ubuntu-post_install
 sudo bash post-install.sh
 ```
 # Whats on each
-- Sys updates
-- Gnome-tweak-tool
-- OpenSSH install
-- Ufw config
-- Htop
-- Snap
-- Vscode
-- Git
+- system updates and upgrade
+- gnome-tweak-tool
+- openSSH install
+- ufw config
+- htop
+- curl
+- neofetch
+- vscode
+- git
 - jdk
+- python3-pip
 - python-software-properties
-- Developer Tools Essentials
-- System Clean up after the install
+- developer tools essentials
+- postman
+- OBS Studio
+- discord
+- enable KVM
+- system clean up after the install
 
 # Create user
 

@@ -3,6 +3,8 @@
 # Goal: Script which automatically sets up a new Ubuntu Machine after installation
 # This is a basic install, easily configurable to your needs
 
+echo "Welcome! Let's start setting up your system. It could take more than 10 minutes, be patient"
+
 # Test to see if user is running with root privileges.
 if [[ "${UID}" -ne 0 ]]
 then
@@ -20,69 +22,105 @@ sudo apt install software-properties-common
 # Upgrade the system
 sudo apt-get dist-upgrade -y
 
-# Install gnome-tweak-tool
+echo 'Installing gnome-tweak-tool'
 sudo apt install gnome-tweaks
 
-# Install OpenSSH
+echo 'Installing OpenSSH'
 sudo apt-get install openssh-server -y
 
-# Enable Firewall
+echo 'Enable Firewall'
 sudo ufw enable
 
 # configure the firewall
 sudo ufw allow OpenSSH
 
-# install htop
+echo 'Installing htop'
 sudo apt-get install -y htop
 
-# install snap
-sudo apt install snapd
-
-# install vscode
+echo 'Installing vscode'
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt update
 sudo apt install -y code
 
-# install git
+echo 'Installing git'
 sudo apt install -y git
 
-# install jdk
+echo 'Installing curl' 
+sudo apt-get install curl -y
+
+echo 'Installing neofetch' 
+sudo apt-get install neofetch -y
+
+echo 'Installing jdk'
 sudo apt install default-jdk
 java -version
 
-# install python-software-properties to use Nodejs
+echo 'Installing python3-pip'
+sudo apt-get install python3-pip -y
+
+echo 'Installing python-software-properties'
 sudo apt-get install -y python-software-properties
 
-#install Develop Tools Essentials
+echo 'Installing Develop Tools Essentials'
 sudo apt-get install -y gcc g++ make
 sudo apt install -y build-essential
 
-#install postamn
+echo 'Installing postamn'
 sudo snap install postman
+
+echo 'Installing Discord'
+wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
+sudo dpkg -i discord.deb
+sudo apt-get install -f -y && rm discord.deb
+
+echo 'Installing OBS Studio'
+sudo apt-get install ffmpeg && sudo snap install obs-studio
+
+echo 'Enabling KVM'
+sudo apt-get install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virt-manager -y
+sudo adduser $USER libvirt
+sudo adduser $USER libvirt-qemu
 
 sudo service ssh restart
 
-# Cleanup
-sudo apt autoremove
-sudo apt clean
+echo 'Updating and Cleaning Unnecessary Packages'
+sudo -- sh -c 'apt-get update; apt-get upgrade -y; apt-get full-upgrade -y; apt-get autoremove -y; apt-get autoclean -y'
+clear
+
+echo "What name do you want to use in GIT user.name?"
+echo "For example, mine will be \"Felipe Schorles\""
+read git_config_user_name
+
+echo "What email do you want to use in GIT user.email?"
+echo "For example, mine will be \"felipeschorles@outlook.com\""
+read git_config_user_email
+
+echo "Setting up your git global user name and email"
+git config --global user.name "$git_config_user_name"
+git config --global user.email $git_config_user_email
 
 echo "
 ######################################################################################################
 Post-installation of Ubuntu successfully executed! what was installed:
 
-- System updates and upgrade
-- Gnome-tweak-tool
-- OpenSSH install
-- Ufw config
-- Htop
-- Snap
-- Vscode
-- Git
+- system updates and upgrade
+- gnome-tweak-tool
+- openSSH install
+- ufw config
+- htop
+- curl
+- neofetch
+- vscode
+- git
 - jdk
+- python3-pip
 - python-software-properties
-- Developer Tools Essentials
+- developer tools essentials
 - postman
-- System Clean up after the install
+- OBS Studio
+- discord
+- enable KVM
+- system clean up after the install
 ######################################################################################################
 "
