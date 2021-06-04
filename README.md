@@ -5,7 +5,7 @@ Scripts to automate Ubuntu Post Install and tasks.
 
 # How to use
 ```
-wget https://github.com/felipe199903/Ubuntu-post_install/blob/master/post-install.sh
+git clone https://github.com/felipe199903/Ubuntu-post_install.git
 ```
 ```
 cd Ubuntu-post_install
@@ -22,7 +22,6 @@ sudo bash post-install.sh
 - curl
 - neofetch
 - vscode
-- git
 - jdk
 - python3-pip
 - python-software-properties

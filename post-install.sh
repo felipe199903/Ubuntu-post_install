@@ -43,9 +43,6 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 sudo apt update
 sudo apt install -y code
 
-echo 'Installing git'
-sudo apt install -y git
-
 echo 'Installing curl' 
 sudo apt-get install curl -y
 
@@ -122,7 +119,6 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - curl
 - neofetch
 - vscode
-- git
 - jdk
 - python3-pip
 - python-software-properties
