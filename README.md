@@ -29,6 +29,9 @@ sudo bash post-install.sh
 - developer tools essentials
 - postman
 - OBS Studio
+- Google Chrome
+- IntelliJ IDEA
+- Visual Studio Code
 - discord
 - enable KVM
 - system clean up after the install

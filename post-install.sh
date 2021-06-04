@@ -77,6 +77,16 @@ sudo apt-get install -f -y && rm discord.deb
 echo 'Installing OBS Studio'
 sudo apt-get install ffmpeg && sudo snap install obs-studio
 
+echo 'Installing Google Chrome'
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+echo 'Installing IntelliJ IDEA'
+sudo snap install intellij-idea-ultimate --classic
+
+echo 'Installing Visual Studio Code'
+sudo snap install --classic code
+
 echo 'Enabling KVM'
 sudo apt-get install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virt-manager -y
 sudo adduser $USER libvirt
@@ -119,6 +129,9 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - developer tools essentials
 - postman
 - OBS Studio
+- Google Chrome
+- IntelliJ IDEA
+- Visual Studio Code
 - discord
 - enable KVM
 - system clean up after the install
