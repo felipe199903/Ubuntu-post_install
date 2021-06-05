@@ -28,6 +28,7 @@ sudo bash post-install.sh
 - python-software-properties
 - developer tools essentials
 - postman
+- ffmpeg
 - OBS Studio
 - Google Chrome
 - IntelliJ IDEA

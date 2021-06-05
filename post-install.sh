@@ -84,6 +84,9 @@ sudo snap install intellij-idea-ultimate --classic
 echo 'Installing Visual Studio Code'
 sudo snap install --classic code
 
+echo 'Installing ffmpeg'
+sudo apt install ffmpeg
+
 echo 'Enabling KVM'
 sudo apt-get install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virt-manager -y
 sudo adduser $USER libvirt
@@ -126,6 +129,7 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - postman
 - OBS Studio
 - Google Chrome
+- ffmpeg
 - IntelliJ IDEA
 - Visual Studio Code
 - discord
