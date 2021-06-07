@@ -48,3 +48,9 @@ bash user.sh
 ```
 bash dev.env.sh
 ```
+
+# Create game env
+
+```
+bash game.env.sh
+```
