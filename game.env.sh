@@ -21,3 +21,8 @@ wget -qO- https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
 sudo apt install software-properties-common
 sudo apt-add-repository "deb http://dl.winehq.org/wine-builds/ubuntu/ $(lsb_release -cs) main"
 wine --version
+
+echo 'Installing Lutris'
+sudo add-apt-repository ppa:lutris-team/lutris
+sudo apt update
+sudo apt install lutris
