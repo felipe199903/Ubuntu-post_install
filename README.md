@@ -14,7 +14,7 @@ cd Ubuntu-post_install
 ```
 sudo bash post-install.sh
 ```
-# Whats on each
+# Whats on each for Post install
 - system updates and upgrade
 - gnome-tweak-tool
 - openSSH install
