@@ -37,6 +37,12 @@ sudo bash post-install.sh
 - enable KVM
 - system clean up after the install
 
+# Whats on each for Game-env
+- Steam
+- dependencies for Minecraft Server
+- Wine
+- Lutris
+
 # Create user
 
 ```
