@@ -84,6 +84,9 @@ sudo snap install intellij-idea-ultimate --classic
 echo 'Installing Visual Studio Code'
 sudo snap install --classic code
 
+echo 'Installing Eclipse IDE'
+sudo snap install --classic eclipse
+
 echo 'Installing ffmpeg'
 sudo apt install ffmpeg
 
@@ -127,6 +130,7 @@ Post-installation of Ubuntu successfully executed! what was installed:
 - python-software-properties
 - developer tools essentials
 - postman
+- Eclipse IDE
 - OBS Studio
 - Google Chrome
 - ffmpeg

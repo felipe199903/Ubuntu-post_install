@@ -28,6 +28,7 @@ sudo bash post-install.sh
 - python-software-properties
 - developer tools essentials
 - postman
+- Eclipse IDE
 - ffmpeg
 - OBS Studio
 - Google Chrome
