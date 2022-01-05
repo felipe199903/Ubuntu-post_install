@@ -2,7 +2,7 @@
 
 Scripts to automate Ubuntu Post Install and tasks.
 <br><br>
-<img src=".github/ppyd.jpg">
+<img src=".github/linux.png">
 
 # How to use
 ```
