@@ -2,7 +2,10 @@
 
 Scripts to automate Ubuntu Post Install and tasks.
 <br><br>
-<img src=".github/linux.png">
+
+<p align="center">
+  <img src=".github/linux.png">
+</p>
 
 # How to use
 ```
