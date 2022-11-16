@@ -22,6 +22,11 @@ sudo apt install software-properties-common
 # Upgrade the system
 sudo apt-get dist-upgrade -y
 
+echo 'Delete libreoffice'
+sudo apt-get remove --purge libreoffice*
+sudo apt-get clean
+sudo apt-get autoremove
+
 echo 'Installing gnome-tweak-tool'
 sudo apt install gnome-tweaks
 
