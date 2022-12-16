@@ -5,3 +5,6 @@ mkdir workspace
 
 # personal folder
 mkdir workspace/personal
+
+# business folder 
+mkdir www
