@@ -47,24 +47,6 @@ sudo bash post-install.sh
 - Wine
 - Lutris
 
-# Create user
-
-```
-bash user.sh
-```
-
-# Create game env
-
-```
-bash game.env.sh
-```
-
-# Create dev env
-
-```
-bash dev.env.sh
-```
-
 ## Tips
 
 Here are a few suggestions for improving the script:
