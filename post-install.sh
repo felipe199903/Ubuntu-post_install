@@ -1,8 +1,3 @@
-#!/bin/bash
-
-# Goal: Script which automatically sets up a new Ubuntu Machine after installation
-# This is a basic install, easily configurable to your needs
-
 echo "Welcome! Let's start setting up your system. It could take more than 10 minutes, be patient"
 
 # Test to see if user is running with root privileges.
