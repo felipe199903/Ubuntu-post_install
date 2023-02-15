@@ -12,6 +12,7 @@ sudo apt install ./steam.deb
 
 echo 'Installing dependencies for Minecraft Server'
 sudo apt install git build-essential
+
 sudo apt install openjdk-11-jre-headless
 
 echo 'Installing Wine'
