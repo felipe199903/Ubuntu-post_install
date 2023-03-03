@@ -8,3 +8,5 @@ mkdir workspace/personal
 
 # business folder 
 mkdir www
+
+# git setting's
