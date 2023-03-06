@@ -19,26 +19,20 @@ sudo bash post-install.sh
 ```
 # Whats on each for Post install
 - system updates and upgrade
-- gnome-tweak-tool
 - openSSH install
 - ufw config
 - htop
 - curl
 - neofetch
-- vscode
+- Visual Studio Code
 - jdk
-- python3-pip
-- python-software-properties
 - developer tools essentials
-- postman
-- Eclipse IDE
-- ffmpeg
+- Postman
 - OBS Studio
 - Google Chrome
+- ffmpeg
 - IntelliJ IDEA
-- Visual Studio Code
-- discord
-- enable KVM
+- Discord
 - system clean up after the install
 
 # Whats on each for Game-env
