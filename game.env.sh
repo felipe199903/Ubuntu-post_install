@@ -10,11 +10,11 @@ echo 'Installing Steam'
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 sudo apt install ./steam.deb
 
-echo 'Installing dependencies for Minecraft Server'
-sudo apt install git build-essential
-
+# Install OpenJDK 11
+echo 'Installing OpenJDK 11'
 sudo apt install openjdk-11-jre-headless
 
+# Install Wine
 echo 'Installing Wine'
 sudo dpkg --add-architecture i386
 sudo apt update
@@ -23,6 +23,7 @@ sudo apt install software-properties-common
 sudo apt-add-repository "deb http://dl.winehq.org/wine-builds/ubuntu/ $(lsb_release -cs) main"
 wine --version
 
+# Install Lutris
 echo 'Installing Lutris'
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
