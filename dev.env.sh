@@ -15,4 +15,3 @@ read git_config_user_email
 echo "Setting up your git global user name and email"
 git config --global user.name "$git_config_user_name"
 git config --global user.email $git_config_user_email
-
